@@ -323,6 +323,7 @@ define(function(require) {
     }
 
     barLayoutGrid.getLayoutOnAxis = getLayoutOnAxis;
+    barLayoutGrid.calBarWidthAndOffset = calBarWidthAndOffset;
 
     return barLayoutGrid;
 });
